@@ -1,0 +1,31 @@
+.quotepage{
+    margin-top: 7rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.quotepage .card{
+    background-color: #1F2937;
+    color: white;
+    width: 80%;
+    margin: 2rem;
+    padding: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    border-radius: 8px;
+}
+
+.quotepage .card span{
+    color: #9CA3A4;
+    margin: 1rem;
+}
+
+.quotepage .card p{
+    font-size: 1.8rem;
+    font-weight: 600;
+    text-align: center;
+}

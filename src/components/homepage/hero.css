@@ -1,0 +1,77 @@
+.hero{
+    color: rgb(0, 0, 0);
+    background-image: url('../../assets/hero-img.avif');
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding-top: 5rem;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+}
+
+.hero .hero-content{
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-direction: column;
+    height: 50%;
+    margin-left: 20vmin;
+    width: 40%;
+}
+
+.hero .hero-content h2{
+    font-size: 3rem;
+    text-align: center;
+    width: 100%;
+    margin: 0;
+    font-weight:800;
+}
+
+.hero .hero-content p{
+    text-align: center;
+    width: 100%;
+    margin: 0;
+    color: aliceblue;
+    font-size: large;
+}
+
+.hero-content-h2{
+    color: #E11D48;
+}
+
+
+.hero .hero-content .hero-btn{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+
+.hero .hero-content .hero-btn button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 25vmin;
+    height: 6vmin;
+    margin: 1.2rem;
+    border-radius: 8px;
+    border: none;
+    font-size: 2.4vmin;
+    cursor: pointer;
+}
+
+.hero .hero-content .hero-btn .btn1{
+    color: white;
+    background-color: #E11D48;
+}
+
+.hero .hero-content .hero-btn .btn1:hover{
+    background-color: #b50e32;
+}
+
+.hero .hero-content .hero-btn .btn2{
+    color:#E11D48;
+    background-color: #ffffff;
+}

@@ -1,0 +1,154 @@
+.contact{
+    margin-top: 5.3rem;
+    /* background-color: aqua; */
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    box-sizing: border-box;
+}
+
+.contact .contact1{
+    display: flex;
+    width: 50%;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    box-sizing: border-box;
+    
+}
+
+.contact .contact1  .contact1-main{
+    display: flex;
+    width: 75%;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 2rem 0.6rem;
+    box-sizing: border-box;
+    margin: auto;
+    border: 2px solid rgba(0, 0, 0, 0.183);
+    background-color: rgba(0, 0, 0, 0.032);
+}
+
+.contact .contact1 .contact1-main h1, p, .contact1-s1{
+    display: flex;
+    width: 80%;
+    align-items: center;
+    justify-content: flex-start;
+    /* flex-direction: column; */
+    margin: 0.5rem auto;
+}
+
+.contact .contact1 .contact1-main .contact1-s1 .icon{
+    font-size: 1.7rem;
+    width: 3rem;
+    display: flex;
+    align-items: start;
+    justify-content: flex-start;
+    margin-right: 1rem;
+}
+
+.contact .contact1 .contact1-main .contact1-s1 .contact1-s2{
+    display: flex;
+    align-items: start;
+    justify-content: flex-start;
+    flex-direction: column;
+    margin: 0.3rem 0.2rem;
+    width: 60%;
+}
+
+.contact .contact1 .contact1-main .contact1-s1 .contact1-s2 span{
+    display: inline-block;
+    width: 100%;
+    text-align: left;
+}
+
+.contact .contact1 .contact1-main .contact1-s1 .contact1-s2 .span{
+    font-size: 1.3rem;
+    font-weight: 700;
+}
+
+
+
+
+.contact .contact2{
+    width: 50%;
+    padding: 2rem 0.9rem;
+    box-sizing: border-box;
+}
+
+
+.contact .contact2 .contact2-s1{
+    width: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin: 2rem auto;
+    padding: 1rem;
+    box-shadow: 1px 1px 10px 1px rgba(0, 0, 0, 0.251);
+    box-sizing: border-box;
+}
+
+
+.contact .contact2 .contact2-s1 input, button{
+    width: 80%;
+    height: 3rem;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    border-radius: 4px;
+    margin: 0.6rem;
+    font-size: 1rem;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    padding: 0.2rem 0.6rem;
+    /* box-shadow: 1px 1px 10px 1px rgba(0, 0, 0, 0.155); */
+}
+
+
+.contact .contact2 .contact2-s1 textarea{
+    width: 80%;
+    height: 10rem;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    border-radius: 4px;
+    margin: 0.6rem;
+}
+
+
+.contact .contact2 .contact2-s1 button{
+    background-color: #4a4aff;
+    color: white;
+    cursor: pointer;
+}
+
+
+.contact .contact2 .contact2-s1 button:hover{
+    box-shadow: 1px 1px 10px 1px rgba(0, 0, 0, 0.183);
+
+}
+
+
+.contact .contact2 .contact2-s1 input:focus{
+    outline: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+
+.contact .contact2 .contact2-s1 textarea:focus{
+    outline: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+
+
+@media (max-width: 768px) {
+    
+.contact{
+    flex-direction: column;
+}
+    
+.contact .contact1{
+    width: 100%;
+}
+    
+.contact .contact2{
+    width: 100%;
+}
+
+  }
